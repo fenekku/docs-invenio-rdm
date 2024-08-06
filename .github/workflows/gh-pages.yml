@@ -66,12 +66,12 @@ jobs:
       #       --minify \
       #       --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Build
-        run: mkdocs build --clean --strict -v
+        run: mkdocs build --clean --strict --verbose
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./site
 
   # Deployment job
   deploy:
