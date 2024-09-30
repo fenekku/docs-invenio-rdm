@@ -1,4 +1,4 @@
-# Newcomers Guide
+# New maintainers Guide
 
 **Intended audience**
 
