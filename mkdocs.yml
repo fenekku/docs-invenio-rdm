@@ -52,7 +52,7 @@ nav:
     - Powerful: "features/powerful.md"
     - Secure: "features/secure.md"
 
-  - Install:
+  - Get started:
     - Overview: "install/index.md"
     - Quick start:
       - Overview: "install/index.md"
@@ -85,7 +85,7 @@ nav:
       - OAI-PMH Sets: "reference/rest_api_oaipmh_sets.md"
       - Statistics: "reference/rest_api_statistics.md"
 
-  - Operate:
+  - Operate an Instance:
     - Overview: "develop/index.md"
     - Deploy and run an instance:
       - Deploy: deploy/index.md
@@ -143,42 +143,43 @@ nav:
     - Custom code: develop/howtos/custom_code.md
     - Troubleshooting: "install/troubleshoot.md"
 
-  - Contribute:
+  - Contribute to the Community:
     - Overview: contribute/index.md
-    - Onboarding: contribute/onboarding.md
-    - Development process: develop/process.md
-    - Community PR board: maintenance/pr-community-board.md
-    # Merge with above
-    #     - Sprintboard workflow: maintenance/board-workflow.md
-    - RFCs: maintenance/rfcs.md
-    - Virtual environments: "develop/getting-started/virtualenvs.md"
-    - Debugging: "develop/getting-started/debugging.md"
+    - Onboard: contribute/onboarding.md
     - Code of conduct: contribute/code-of-conduct.md
     - Copyright policy: contribute/copyright-policy.md
-    - Translations:
-      - How to translate: contribute/translators-guide.md
-      - How to contribute translateable code (i18n): develop/howtos/i18n.md
-    - Best practices:
-        - Accessibility (a11y): develop/best-practices/accessibility.md
-        - Commits, PRs & reviews: develop/best-practices/commits.md
-        - CSS/JavaScript: develop/best-practices/css-js.md
-        - React: develop/best-practices/react.md
-        - User interface: develop/best-practices/ui.md
+    - Contribute code to InvenioRDM:
+      - Development process: develop/process.md
+      - Community PR board: maintenance/pr-community-board.md
+      #   # Merge with above
+      #   #     - Sprintboard workflow: maintenance/board-workflow.md
+      - RFCs: maintenance/rfcs.md
+      - How to code on InvenioRDM: "develop/getting-started/instance-development.md"
+      - How to code on an InvenioRDM module: "develop/getting-started/package-development.md"
+      - Virtual environments: "develop/getting-started/virtualenvs.md"
+      - Debugging: "develop/getting-started/debugging.md"
+      - Best practices:
+          - Accessibility (a11y): develop/best-practices/accessibility.md
+          - Commits, PRs & reviews: develop/best-practices/commits.md
+          - CSS/JavaScript: develop/best-practices/css-js.md
+          - React: develop/best-practices/react.md
+          - User interface: develop/best-practices/ui.md
     - Report or fix a vulnerability:
       - Security policy: releases/security-policy.md
       - Fix a vulnerability: develop/howtos/security-fix.md
-    - Writing documentation: maintenance/documentation.md
+    - Contribute Translations:
+      - How to translate: contribute/translators-guide.md
+      - How to contribute translateable code (i18n): develop/howtos/i18n.md
+    - Write documentation: maintenance/documentation.md
 
   - Maintain:
     - Overview: maintenance/index.md
-    - Newcomers: maintenance/newcomers.md
+    - New maintainers: maintenance/newcomers.md
     - Release management: maintenance/release-management.md
     - Modules on GitHub: maintenance/modules.md
     - Branch management: maintenance/branch-management.md
     - Demo site & docs: maintenance/demosite.md
     - Docker images: maintenance/docker-images.md
-
-  - Learn:
     - Architecture:
       - Introduction: develop/architecture/index.md
       - Infrastructure: develop/architecture/infrastructure.md
